@@ -17,14 +17,17 @@ This web project allows you to generate random colors and convert hexadecimal co
 ## Getting Started
 
 1. Clone the repository:
+       
+     ```bash
+      git clone https://github.com/atakanAslan1/Random-Color-Generator.git
+    ```
 
-    bash
-    git clone https://github.com/atakanAslan1/Random-Color-Generator.git
+   
     
 
-2. Open the project in your preferred code editor.
+3. Open the project in your preferred code editor.
 
-3. Open `index.html` in your web browser.
+4. Open `index.html` in your web browser.
 
 ## Usage
 
