@@ -1,0 +1,203 @@
+/* CSS Reset */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+/* Remove list styles */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Remove default hyperlink styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default button styles */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Reset form elements */
+input,
+textarea,
+select,
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+/* End of CSS Reset */
+
+.container {
+    height: 100vh;
+
+
+
+
+}
+header {
+    background-color: #2F4858;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-h1 {
+    color: #C3FCF1;
+    font-size: 2rem;
+    margin: 0 auto 0 0;
+
+
+}
+
+li {
+    display: inline; /* Add this line */
+    padding: .3rem;
+    font-size: 2rem;
+    color: #C3FCF1;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    transition: 150ms ease-in-out;
+    
+}
+
+li:hover {
+    background-color: #C3FCF1;
+    color: #2F4858;
+}
+
+
+.main-content {
+
+    margin: 1.5rem auto;
+    min-height: 85%;
+    width: 80%;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: #2F4858;
+    position: relative;
+    box-shadow: 0 0 10px 3px #000000;
+}
+
+.generate-colorBtn {
+    padding: .6rem 1.7rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    background-color: #C3FCF1;
+    color: #2F4858;
+    border-radius: 1rem;
+    transition: 150ms ease-in-out;
+    display: inline-block;
+}
+
+.generate-colorBtn:hover {
+    background-color:#36e2bc;
+}
+
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    
+}
+
+
+.hex-color {
+    width: 80px;
+    height: 80px;
+    background-color: #C3FCF1;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px;
+    margin: .5rem .2rem .5rem 1.1rem;
+    border-radius: 1rem;
+
+
+}
+
+.copied {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 36px;
+    
+    color: #ffffff;
+    z-index: 100000;
+    transition: 150ms ease-in-out;
+
+}
+
+.hex {
+    background-color: #e2e3e3; ;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    outline: none;
+    font-size: 24px;
+}
+
+.rgb {
+    color: #eef0f1 ;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    outline: none;
+    font-size: 24px;
+    margin-top: 4rem;
+    border: 1px solid white;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+
+
+
+}
+
+.rgb:hover {
+    background-color: #283b47;
+    
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+}
+
